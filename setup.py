@@ -23,7 +23,7 @@ def main():
         author='Sergii Tishchenko',
         author_email='contact@demo.com',
         packages=['doc_analyzer',
-                  'doc_analyzerpdf_analyzer'],
+                  'doc_analyzer.pdf_analyzer'],
         install_requires=required,
         include_package_data=True,
         keywords="mypackage for product test",
