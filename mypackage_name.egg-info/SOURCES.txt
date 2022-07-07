@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+doc_analyzer/__init__.py
+doc_analyzer/pdf_analyzer/__init__.py
+doc_analyzer/pdf_analyzer/pdf_analyzer.py
+mypackage_name.egg-info/PKG-INFO
+mypackage_name.egg-info/SOURCES.txt
+mypackage_name.egg-info/dependency_links.txt
+mypackage_name.egg-info/requires.txt
+mypackage_name.egg-info/top_level.txt
