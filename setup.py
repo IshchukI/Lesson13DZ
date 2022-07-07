@@ -19,7 +19,7 @@ def main():
         description='My Package Description',
         long_description=long_description,
         long_description_content_type="text/markdown",
-        url='https://github.com/tishyk/mypackage-install/tree/master',
+        url='https://github.com/IshchukI/Lesson13DZ',
         author='Sergii Tishchenko',
         author_email='contact@demo.com',
         packages=['doc_analyzer',
