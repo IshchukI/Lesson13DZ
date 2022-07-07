@@ -75,7 +75,6 @@ class PDFAnalyzer:
 
 
 # pDFAnalyzer = PDFAnalyzer("D:\Links.pdf")
-#
 # links = pDFAnalyzer.link_analyzer.collect_links()
 # print(f"<<<<<<<{links}>>>>>>>")
 # print(pDFAnalyzer.link_analyzer.review_link(links[2]))

@@ -74,13 +74,13 @@ class PDFAnalyzer:
         return text
 
 
-pDFAnalyzer = PDFAnalyzer("D:\Links.pdf")
-
-links = pDFAnalyzer.link_analyzer.collect_links()
-print(f"<<<<<<<{links}>>>>>>>")
-print(pDFAnalyzer.link_analyzer.review_link(links[2]))
-print(pDFAnalyzer.link_analyzer.review_links())
-pDFAnalyzer.link_analyzer.make_report()
+# pDFAnalyzer = PDFAnalyzer("D:\Links.pdf")
+#
+# links = pDFAnalyzer.link_analyzer.collect_links()
+# print(f"<<<<<<<{links}>>>>>>>")
+# print(pDFAnalyzer.link_analyzer.review_link(links[2]))
+# print(pDFAnalyzer.link_analyzer.review_links())
+# pDFAnalyzer.link_analyzer.make_report()
 
 if __name__ == "__main__":
     print(PDFAnalyzer("D:\Links.pdf"))
