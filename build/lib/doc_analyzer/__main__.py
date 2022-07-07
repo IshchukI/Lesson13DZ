@@ -2,8 +2,6 @@ import sys
 import doc_analyzer
 
 
-
-
 if __name__ == "__main__":
     print("Run mypackage")
     print("Done")
@@ -13,16 +11,13 @@ if __name__ == "__main__":
         links = pDFAnalyzer.link_analyzer.collect_links()
         print(f"<<<<<<<{links}>>>>>>>")
     if (sys.argv[2] == "review_link"):
-        pDFAnalyzer.link_analyzer.review_link()
+        ans = pDFAnalyzer.link_analyzer.review_link()
+        print(f"link is ok: {ans}")
     if (sys.argv[2] == "review_links"):
-        pDFAnalyzer.link_analyzer.review_links()
+        ans = pDFAnalyzer.link_analyzer.review_links()
+        print(ans)
     if (sys.argv[2] == "clean"):
         pDFAnalyzer.link_analyzer.clean()
+        print("all clear")
     if (sys.argv[2] == "make_report"):
         pDFAnalyzer.link_analyzer.make_report()
-
-    # links = pDFAnalyzer.link_analyzer.collect_links()
-    # print(f"<<<<<<<{links}>>>>>>>")
-# print(pDFAnalyzer.link_analyzer.review_link(links[2]))
-# print(pDFAnalyzer.link_analyzer.review_links())
-# pDFAnalyzer.link_analyzer.make_report()
