@@ -22,9 +22,8 @@ def main():
         url='https://github.com/IshchukI/Lesson13DZ',
         author='Sergii Tishchenko',
         author_email='contact@demo.com',
-        packages=['doc_analyzer',
-                  'doc_analyzer.pdf_analyzer'],
-        install_requires=["requests>=2.21.0", "pdfminer"],
+        packages=['doc_analyzer'],
+        install_requires=["requests>=2.21.0", "pdfminer.six"],
         include_package_data=True,
         keywords="mypackage for product test",
 
